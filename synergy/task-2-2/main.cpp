@@ -13,11 +13,15 @@ int main() {
 
     if (first > second) {
         cout << "more" << endl;
-    } else if (first < second) {
-        cout << "less" << endl;
-    } else {
-        cout << "equal" << endl;
+        return 0;
     }
+
+    if (first < second) {
+        cout << "less" << endl;
+        return 0;
+    }
+
+    cout << "equal" << endl;
 
     return 0;
 }
